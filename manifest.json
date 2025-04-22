@@ -1,1 +1,31 @@
+{
+  "name": "Target Chart",
+  "description": "Custom chart to show Actual vs Target",
+  "style": "style.css",
+  "script": "index.js",
+  "icon": "icon.png",
+  "fields": {
+    "dimensions": [
+      {
+        "id": "dimension1",
+        "name": "Category",
+        "type": "TEXT"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric1",
+        "name": "Actual",
+        "type": "NUMBER"
+      },
+      {
+        "id": "metric2",
+        "name": "Target",
+        "type": "NUMBER"
+      }
+    ]
+  },
+  "theme": {},
+  "defaultStyle": {}
+}
 
